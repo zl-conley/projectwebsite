@@ -35,39 +35,38 @@ def animal_info(id):
     print(pet) 
     return render_template('animalinfo.html', pet=pet)
 
+
 @app.route("/cat")
 def cat():
     pets = db.Pets.find({'Species': 'Cat'})
     return render_template("cat.html",pets=pets)
 
 
-    
-
 @app.route("/contact", methods=['GET', 'POST'])
 def contact():
     if request.method == 'POST':
         phone = request.form.get('phone')
         email = request.form.get('email')
-        address = request.form.get('address')
-        db.ContactInfo.insert_one({"Contact": phone, "Email": email, "Address": address})
+        query = request.form.get('query')
+        db.ContactInfo.insert_one({"Contact": phone, "Email": email, "query": query})
         return redirect(url_for('contact'))
     return render_template("contactus.html",contact=contact)
 
-@app.route("/dog")
-def dog():
+# @app.route("/dog")
+# def dog():
+#     pets = db.Pets.find({'Species': 'Dog'})
+#     return render_template("dog.html",pets=pets)
+
+@app.route("/dog1")
+def dog1():
     pets = db.Pets.find({'Species': 'Dog'})
     return render_template("dog.html",pets=pets)
-
 
 @app.route("/donation")
 def donation():
     return render_template("donation.html")
 
 
-@app.route("/animalinfo1")
-def animal_info1():
-    pets = db.Pets.find({'Species': 'Dog'})
-    return render_template('test.html',pets=pets)
 
 if __name__ == "__main__":
     app.run(debug=True)

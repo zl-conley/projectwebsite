@@ -81,8 +81,8 @@
 }
 
 .insertphone {
-    margin-top: 20px;
-    margin-left: 78px;
+    margin-top: 50px;
+    /* margin-left: 78px; */
     letter-spacing: 3.2px;
     font-weight: 70 !important;
     
@@ -103,8 +103,8 @@
 }
 
 .insertemail {
-    margin-top: 56px;
-    margin-left: 84px;
+    margin-top: 50px;
+    /* margin-left: 84px; */
     letter-spacing: 3.2px;
     font-weight: 70 !important;
     @media only screen and (max-width: 1050px) {
@@ -125,7 +125,7 @@
     
 .address-3 {
     color: var(--black_900_01) !important;
-    margin-top: 16px;
+    margin-top: 26px;
     margin-left: 108px;
     letter-spacing: 3.6px;
     @media only screen and (max-width: 1050px) {
@@ -134,8 +134,8 @@
 }
     
 .insertaddress {
-    margin-top: 24px;
-    margin-left: 62px;
+    margin-top: 50px;
+    /* margin-left: 62px; */
     letter-spacing: 3.2px;
     font-weight: 700 important;
     @media only screen and (max-width: 1050px) {

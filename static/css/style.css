@@ -134,7 +134,7 @@
 }
     
 .rowadopt {
-    margin-top: 62px;
+    margin-top: 100px;
     flex: 1;
     display: flex;
     justify-content: space-between;
@@ -184,7 +184,7 @@
 }
     
 .stackphone-1 {
-    height: 584px;
+    height: 600px;
     width: 100%;
     position: relative;
 }
@@ -193,9 +193,9 @@
     flex: 1;
     position: absolute;
     left: 0px;
-    bottom: px;
+    bottom: 0px;
     right: 0px;
-    top: px;
+    top: 0px;
     height: max-content;
     margin: auto;
     
@@ -218,6 +218,7 @@
 .image-1 {
     height: 558px;
     width: 100%;
+    margin-top: 100px;
     object-fit: cover;
     @media only screen and (max-width: 1050px) {
     height: auto;
@@ -231,6 +232,8 @@
 .image {
     height: 20px;
     margin-top: -20px;
+    top: 10px;
+    bottom: 0px;
     position: relative;
     width: 100%;
     object-fit: cover;
@@ -244,8 +247,8 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    right: 28%;
-    top: 7%;
+    right: 15%;
+    top: 15%;
     margin: auto;
     
 }
@@ -267,8 +270,8 @@
     left: 0px;
     bottom: 0px;
     right: 0px;
-    top: px;
-    height: max-content;
+    top: 15%;
+    height:fit-content;
     padding: 124px 56px;
     margin: auto;
     @media only screen and (max-width: 1050px) {
@@ -278,14 +281,19 @@
 
 .mondayfriday-1 {
     color: #ffffff !important;
-    margin-top: 46px;
+    margin-top: 70px;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
-
+.email{
+    color: #ffffff !important;
+    margin-top: 15px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
 .weekday {
     color: #ffffff !important;
-    margin-top: 28px;
+    margin-top: 15px;
     letter-spacing: 4px;
     text-transform: uppercase;
 }
@@ -320,6 +328,7 @@
     
 .geminigenerate-3 {
     height: 444px;
+    top: 100px;
     align-self: center;
     width: 68%;
     object-fit: contain;
@@ -332,7 +341,7 @@
 
 .address {
     color: #ffffff !important;
-    margin-top: 50px;
+    margin-top: 6%;
     align-self: flex-end;
     letter-spacing: 4px;
     position: absolute;
@@ -350,13 +359,14 @@
     letter-spacing: 4px;
     position: absolute;
     left: 30%;
-    top: 17%;
+    top: 23%;
     margin: auto;
     color: var(--gray_600_01) !important;
 }
 
 .footer {
     display: flex;
+    top:25%;
 }
 
 .apawprocessed-1 {
@@ -364,7 +374,8 @@
     width: 24%;
     object-fit: contain;
     position: absolute;
-    bottom: -1px;
+    bottom: -50px;
     right: 1px;
     margin: auto;
 }
+

@@ -7,6 +7,8 @@
     background-color: var(--blue_gray_500) !important;
     height: 126px;
     min-width: 344px;
+    margin-right: 900px;
+   
     border-radius: 50px !important;
     @media only screen and (max-width: 1050px) { 
         font-size: 26px;
@@ -25,6 +27,7 @@
 }
 
 .stackanewpal {
+    padding-left: 100px;
     height: 634px;
     position: relative;
     @media only screen and (max-width: 1050px) { 
@@ -37,8 +40,8 @@
     display: flex;
     width: 74%;
     flex-direction: column;
-    margin-left: 5%;
-    margin-top:5%;
+    /* margin-left: 5%;
+    margin-top:5%; */
 }
 
 .columnanewpal {
@@ -53,11 +56,12 @@
     text-transform: uppercase;
     z-index: 1;
     position: relative;
+   margin-top: 3%;
 }
 
 .anewpal_one {
     color: var(--blue_gray_500) !important; 
-    margin-top: -40px; 
+    margin-top: -52px; 
     letter-spacing: 3.6px;
     text-transform: uppercase;
     position: relative;
@@ -65,16 +69,19 @@
 
 .columnadoptions {
     margin-left: 14px;
-    margin-right: 14px; 
+    margin-right: 14px;
+    /* margin-bottom: 350px;*/
+    margin-top:5%; 
     gap: 96px; 
     display: flex;
+    /* position: relative; */
     flex-direction: column; 
     align-items: flex-start;
     @media only screen and (max-width: 1050px) { 
         gap: var(--space-2xl);
+        margin-left: 0px;
+        margin-right: 0px;
     }
-    margin-left: 0px;
-    margin-right: 0px;
     @media only screen and (max-width: 550px) {
         gap: 48px;
     }
@@ -97,23 +104,29 @@
 
 .columnd6v11p972 {
     padding-left: 56px;
-    padding-right: 68px; display: flex;
+    padding-right: 68px;
+    /* width: 50%; */
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
     @media only screen and (max-width: 1050px) {
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .d6v11p97243743 { 
-    height: 490px; 
+    height: 516px; 
     width: 42%;
     object-fit: contain;
+    /* margin-left: 75%;
+    margin-top: 70%; */
+    /* margin-bottom: 100%;; */
 }
 
 .rowpawpaw_one {
-    margin-top: 5%;
+    margin-top: -32px;
+    /* margin-bottom: 850px; */
     position: relative;
     align-self: stretch; 
     display: flex;
@@ -125,8 +138,8 @@
 }
 
 .pawpaw_one {
-    height: 75px;
-    
+    height: 110px;
+    margin-top: 50px; 
     z-index: 3;
     width: 10%;
     position: relative;
@@ -139,13 +152,15 @@
 .row-1 {
     margin-left: -138px;
     padding-top: 16px; 
-    padding-bottom: 16px; 
+    padding-bottom: 16px;
+    margin-top: 50px; 
     position: relative;
     background-color: var(--blue_gray_500_33);
     flex: 1;
     display: flex;
     justify-content: center;
-    border: 1px solid var(--gray_100_7f); @media only screen and (max-width: 1050px) {
+    border: 1px solid var(--gray_100_7f); 
+    @media only screen and (max-width: 1050px) {
     align-self: stretch;
     padding-left: 20px;
     padding-right: 20px;
@@ -167,17 +182,19 @@
 
     letter-spacing: 5.4px; 
     text-transform: uppercase;
-    margin-left: 30%;
+    /* margin-left: 30%; */
 }
 
 .pawpaw_three {
-    height: 75px;
+    height: 110px;
+    
     z-index: 4;
     width: 10%;
     position: absolute; 
     object-fit: contain; 
     bottom: 0.31px;
     right: -2.69px;
+    margin: auto;
     margin-right: 0.5%;
 }
 
@@ -198,7 +215,8 @@
     @media only screen and (max-width: 1050px) {
     align-self: stretch;
     flex-direction: column;
-    padding-left: 20px; padding-right: 20px;
+    padding-left: 20px; 
+    padding-right: 20px;
     }
 }
 
@@ -212,27 +230,6 @@
 
 .doggie_pals {
     color: #ffffff !important; 
-    margin-bottom: 10.5%;
-    padding-left: var(--space-xl); 
-    padding-right: var(--space-xl);
-    letter-spacing: 2.8px; 
-    font-size: 28px; 
-    align-self: flex-end;
-    background-color: var(--blue_gray_500) !important;
-    height: 126px;
-    min-width: 344px;
-    border-radius: 50px !important;
-    /* @media only screen and (max-width: 1050px) { font-size: 26px;
-    }
-    margin-bottom: 0px;
-    @media only screen and (max-width: 550px) {
-    font-size: 24px;
-    padding-left: 20px; padding-right: 20px;
-    } */
-}
-
-.feline_pals {
-    color: #ffffff !important; 
     margin-bottom: 102px;
     padding-left: var(--space-xl); 
     padding-right: var(--space-xl);
@@ -243,15 +240,37 @@
     height: 126px;
     min-width: 344px;
     border-radius: 50px !important;
-    margin-bottom:6%;
-    /* @media only screen and (max-width: 1050px) {
+    @media only screen and (max-width: 1050px) { 
+        font-size: 26px;
+        margin-bottom: 0px;
+    }
+    @media only screen and (max-width: 550px) {
+    font-size: 24px;
+    padding-left: 20px; padding-right: 20px;
+    }
+}
+
+.feline_pals {
+    color: #ffffff !important; 
+    margin-bottom: 8%;
+    padding-left: var(--space-xl); 
+    padding-right: var(--space-xl);
+    letter-spacing: 2.8px; 
+    font-size: 28px; 
+    align-self: flex-end;
+    background-color: var(--blue_gray_500) !important;
+    height: 126px;
+    min-width: 344px;
+    border-radius: 50px !important;
+    /* margin-bottom:6%; */
+    @media only screen and (max-width: 1050px) {
         font-size: 26px;
         padding-left: 20px; 
         padding-right: 20px;
     }
     @media only screen and (max-width: 550px) { 
         font-size: 24px;
-    } */
+    }
 }
 
 .cattoone_one { 

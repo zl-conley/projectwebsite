@@ -10,23 +10,6 @@
     align-items: flex-start;
 }
 
-.headergeminigen {
-    margin-top: 12px;
-    gap: var(--space-lg);
-    display: flex;
-    border-color: var(--gray_100_7f);
-    border-style: solid;
-    background-color: var(--blue_gray_500); 
-    width: 100%;
-    align-items: flex-start;
-    @media only screen and (max-width: 1050px) { 
-        flex-direction: column;
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
 .row {
     background-color: var(--blue_gray_500_33);
     align-self: stretch;
@@ -50,21 +33,22 @@
 }
 
 .stackistockphot {
-    height: 1544px;
+    height: 1050px;
     align-self: stretch;
     position: relative;
 }
 
 .columnistockpho {
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
     position: absolute;
-    bottom: 50%;
+    bottom: 5%;
     right: 0px;
     left: 0px;
     margin-left: auto;
     margin-right: auto;
+    margin-top:25%;
 }
     
 .istockphoto143 {
@@ -236,7 +220,8 @@
 } 
 
 .placeholder {
-    color: var(--black_900_01) !important;
+    color: var(--gray_600) !important;
+    
     margin-top: 10%;
     letter-spacing: 6.4px;
     @media only screen and (max-width: 1050px) {
@@ -258,11 +243,12 @@
 }
 
 .placeholder_one {
-    color: var(--black_900_01) !important;
+    color: var(--gray_600) !important;
     letter-spacing: 6.4px;
     position: absolute;
-    right: 20%;
+    /* right: 20%; */
     top: 50%;
     margin: auto;
-    margin-left: 50%;
+    margin-left: 45%;
 }
+
